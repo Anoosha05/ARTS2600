@@ -12,8 +12,8 @@ from hugchat.exceptions import ChatError
 import os 
 from tqdm import tqdm 
 
-EMAIL = "m.anoosha.lk@gmail.com"
-PASSWD = "huggingFace@2005"
+EMAIL = " "
+PASSWD = " "
 cookie_path_dir = "./cookies/" 
 sign = Login(EMAIL, PASSWD)
 cookies= sign.login(cookie_dir_path=cookie_path_dir, save_cookies=True)
