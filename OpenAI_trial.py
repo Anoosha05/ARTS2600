@@ -1,11 +1,5 @@
 """
-Splitting into batches and using openai API - ran out of runs
-this is not working either. we are running into 'model deprecation' issues 
-We initially tried using the text-davinci-003 model, which is now deprecated. 
-Then moved to the newer gpt-3.5-turbo model, but ran into the issue of needing to adjust 
-the code to match the new API format for ChatCompletion
-maybe if we try to correctly use the methods in the right model that isn't depricated, 
-it should work?
+Splitting into batches and using openai API 
 """
 
 
